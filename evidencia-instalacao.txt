@@ -1,0 +1,12 @@
+PS C:\Aula4\agente> ./install.sh
+[install] backup em ~/.claude/backups/2026-10-07T00-10-00
+... 4 arquivo(s) alterado(s)
+
+PS C:\Aula4\agente> ./install.sh
+[install] nada a salvar: nenhum arquivo sera alterado, backup nao criado
+... 0 arquivo(s) alterado(s)
+
+PS C:\Aula4\agente> ./install.sh --uninstall
+[uninstall] settings.json restaurado do backup
+... arquivos removidos
+    
